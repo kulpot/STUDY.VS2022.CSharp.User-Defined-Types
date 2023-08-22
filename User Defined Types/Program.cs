@@ -18,13 +18,17 @@ class Cow
     double pounds;
     public void Moo() 
     { 
-        "Moo".P(); 
+        //"Moo".P();        
         mooCount++;
     }
 
 }
 
-
+class Cat
+{
+    int numLives = 9;
+    public void Meow() { }
+}
 
 class MainClass
 {
@@ -36,6 +40,8 @@ class MainClass
         georgy.Moo(); georgy.Moo();
         georgy.Moo(); georgy.Moo();
         georgy.Moo(); georgy.Moo();
+        Cat muffin = new Cat();
+        muffin.Meow();
     }
 
 }
