@@ -31,8 +31,12 @@ class MainClass
     static void Main()
     {
         Cow betsy = new Cow();
-        betsy.Moo();
+        Cow georgy = new Cow();
+        betsy.Moo(); betsy.Moo();
+        georgy.Moo(); georgy.Moo();
+        georgy.Moo(); georgy.Moo();
+        georgy.Moo(); georgy.Moo();
     }
-    
+
 }
 
